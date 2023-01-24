@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin: 0%;
+	padding:0%;
+	font-family: "Poppins" ,sans-serif;
+	box-sizing: border-box;
+	outline: none;
+	color: #000000;
+}
+.root{
+	--prime: #AA336A;
+}
+body{
+	background-color: #FFFFFF;
+}
+.navbar{
+	width: 100%;
+	display: flex; 
+	position: fixed;
+	padding: 30px 120px;
+	background-color: #FAAFBA; 
+	justify-content: space-between;
+	z-index:1111;
+	transition:0.5 ease;
+}
+.logo{
+	font-size: 2.8em;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform:  uppercase;
+	text-decoration: none;
+}
+.logo B{
+	color: #FFFFFF;
+}
+ol{
+	display: flex;
+	margin: auto 0;
+}
+ol li{
+	list-style: none;
+	margin-right: 20px;
+}
+ol li a{
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;  
+}
+ol li:hover a{
+	color: #FFFFFF;
+}
+.view{
+	width: 100%
+	min-height: 80vh;
+	position: relative;
+}
+.Home{
+	display: flex;
+	min-height:120vh;
+	align-items: center; 
+	justify-content: center;
+	clip-path: polygon(0 0,100% 0,100% 100%,80% 95%,0 100%);
+}
+.banner{
+	height: 100% ;
+	width: 100%;
+	position: absolute; 
+	background-image: url('/images/banner.jpg');
+	background-size: cover;
+	background-position: center; 
+	filter: brightness(40%);
+}
+.highlights{
+	width: 70%;
+	position: relative;
+	display: inline-block;
+	z-index: 11;
+}
+.highlights h3{
+	display: inline;
+	font-size: 2vw;
+	padding: 5px 20px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	border-left: 6px solid color #AA336A;
+		}
+.highlights h1{
+	font-size: 9vw;
+	text-align: center;
+	font-weight: normal;
+}
+.highlights b{
+	color: #AA336A;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+.highlights.tagline{
+	color: #000000;
+	font-size: 1.2vw;
+	text-align: center;
+	font-weight: normal;
+}
+.highlights .Join{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 800;
+	padding: 5px 20px;
+	font-size: 1.5vw;
+	margin-top: 1.2em;
+	color: #AA336A;
+	border: 2px;
+	border-radius: 50px;
+	background: transparent;
+	transition: 0.3s ease;
+	align-content: center;
+	text-transform: uppercase;
+}
+.highlight .Join :hover{
+	color: #FFFFFF;
+	cursor: pointer;
+	letter-spacing:1.5px;
+	background color: #AA336A; 
+}
+
+}
+}
